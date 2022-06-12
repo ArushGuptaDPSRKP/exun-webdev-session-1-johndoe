@@ -1,0 +1,106 @@
+body{
+    font-family: 'Karla';
+    background-color: rgba(34, 39, 58, 1);
+}
+
+.flex-container{
+    display: flex;
+    background: rgba(31, 34, 53, 1);
+}
+
+
+
+header nav h3{
+    color: white;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    flex-basis: 38%;
+    position: relative;
+    left: 6%;
+}
+
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-basis: 46%;
+}
+
+header nav ul li {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;   
+}
+
+header nav button{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 8%;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.container{
+    background: rgba(34, 39, 58, 1);
+    display: flex; 
+}
+
+.container div{
+    padding: 4px;
+}
+
+.container h1{
+    color:white;
+}
+
+.container p {
+    color: rgba(165, 170, 178, 1);
+}
+
+.container button {
+    color: white;
+    background-color: transparent;
+    justify-content: right;
+    align-items: right;
+    align-self: right;
+} 
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#projects {
+    padding-left: 68px;
+    padding-right: 68px;
+    background-color:rgba(34, 39, 58, 1) ;
+}
+
+.container2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 24px;
+    margin: 12px;
+}
+
+footer section {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
