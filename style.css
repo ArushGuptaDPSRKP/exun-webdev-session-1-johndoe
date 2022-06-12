@@ -13,6 +13,7 @@ body{
 header nav h3{
     color: white;
     font-weight: 600;
+    font-size: 32px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -33,6 +34,7 @@ header nav ul{
 header nav ul li {
     padding-left: 8px;
     padding-right: 8px;
+    font-size: 23px;
 }
 
 header nav ul li a{
@@ -42,6 +44,7 @@ header nav ul li a{
 
 header nav button{
     display: flex;
+    font-size: 23px;
     flex-direction: row;
     flex-basis: 8%;
     align-self: center;
@@ -56,33 +59,50 @@ header nav button{
 .container{
     background: rgba(34, 39, 58, 1);
     display: flex; 
+    justify-content: space-around;
+    align-items: center;
 }
 
-.container div{
-    padding: 4px;
+.container img {
+    position: relative;
+    right: 12% ;
 }
 
-.container h1{
-    color:white;
+.content {
+    width: 50%;
 }
 
-.container p {
-    color: rgba(165, 170, 178, 1);
-}
-
-.container button {
+.content h1 {
     color: white;
-    background-color: transparent;
-    justify-content: right;
-    align-items: right;
-    align-self: right;
-} 
+    font-size: 54px;
+}
 
+.content p{
+    color: white;
+    font-size: 24px;
+}
+
+.content button {
+    color: white;
+    font-size: 23px;
+    background-color: transparent;
+    border-color: red;
+    border-style: solid;
+    border-radius: 30px;
+    padding: 12px;
+}
 .projects {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+#projects h2 {
+    color: white;
+    font-size: 52px;
+    position: relative;
+    left: 3%;
 }
 
 #projects {
@@ -96,11 +116,49 @@ header nav button{
     color: white;
     text-align: center;
     border-radius: 24px;
-    margin: 12px;
+    margin: 72px;
 }
 
-footer section {
+footer {
     background-color: black;
     color: white;
     text-align: center;
+    border: 2px solid black;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 8%;
+    padding-bottom: 4%;
+}
+
+footer h4 {
+    font-size: 24px;
+    padding-top: 52px;
+}
+
+footer section {
+    background-color: rgba(34, 39, 58, 1);
+    margin-left: 16%;
+    margin-right: 16%;
+    margin-top: 4%;
+    padding: 2%;
+}
+
+footer section input {
+    background-color: transparent;
+    border: none;
+    width: 20%;
+    display: inline;
+    padding-right: 20%;
+}
+
+::placeholder {
+    color: white;
+    font-size: 16px;    
+}
+
+footer section button {
+    color: white;
+    background-color: #373D54;
+    border: 2px solid #373D54;
+    padding: 16px;
 }
